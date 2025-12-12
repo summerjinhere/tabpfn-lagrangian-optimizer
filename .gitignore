@@ -1,0 +1,22 @@
+# secrets
+.env
+.env.*
+!.env.example
+# environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
+.ipynb_checkpoints/
+# logs / artifacts
+*.log
+logs/
+*.pkl
+*.pth
+*.pt
